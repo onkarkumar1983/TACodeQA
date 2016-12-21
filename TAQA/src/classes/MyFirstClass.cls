@@ -3,6 +3,6 @@ public with sharing class MyFirstClass {
     	System.debug('Hello Class');
     	System.debug('Hello Class');
     	System.debug('Hello Class');
-    		System.debug('Hello Class');
+    	
 	}
 }
