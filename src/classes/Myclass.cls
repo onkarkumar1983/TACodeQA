@@ -4,6 +4,6 @@ public with sharing class Myclass {
         System.debug('Hello');
         System.debug('Hello1123');
         
-      System.debug('Hello1123');
+      System.debug('Hello1124');
     }
 }
