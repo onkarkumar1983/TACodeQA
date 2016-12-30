@@ -1,11 +1,11 @@
-<project name="Sample usage of Salesforce Ant tasks" default="Deploy" basedir="." xmlns:sf="antlib:com.salesforce">
+<project name="Sample usage of Salesforce Ant tasks" basedir="." default="deploy"  xmlns:sf="antlib:com.salesforce">
 
     <property file="build.properties"/>
     <property environment="env"/>
 
 	
     <!-- Test out deploy and retrieve verbs for package 'mypkg' -->
-    <target name="Deploy">
+    <target name="deploy">
       <sf:deploy username="${sfprod.username}" 
       			 password="${sfprod.password}" 
       			 serverurl="${sfprod.serverurl}" 
